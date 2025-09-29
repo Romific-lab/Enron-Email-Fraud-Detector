@@ -59,3 +59,7 @@ clf = Pipeline([
     ('vectorizer', TfidfVectorizer()),
     ('classifier', RandomForestClassifier(n_estimators=100, random_state=42))
 ])
+```
+## Blog
+
+My article on the project: https://ramerasrambles.blogspot.com/2025/09/enron-part-2.html
